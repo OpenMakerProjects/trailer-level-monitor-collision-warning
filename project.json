@@ -1,0 +1,21 @@
+{
+  "id": 762,
+  "title": "Trailer Level Monitor Collision Warning",
+  "repository_slug": "trailer-level-monitor-collision-warning",
+  "category": "Smart Vehicles",
+  "platform": "STM32",
+  "platform_family": "arduino",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "Wi-Fi",
+  "components": [
+    "camera",
+    "IMU",
+    "CAN transceiver"
+  ],
+  "scope": "Build a smart vehicles prototype that uses camera, IMU, CAN transceiver to warn about close obstacles. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Collision Warning demonstration with repeatable test steps",
+  "mode": "threshold_alert",
+  "entrypoint": "firmware/trailer-level-monitor-collision-warning/trailer-level-monitor-collision-warning.ino",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
